@@ -19,8 +19,29 @@ let { nombre, precio, peso, tipo: tipo_alimento } = producto
 
 
 
-console.log("Nombre", nombre);
-console.log("Precio", precio);
-console.log("Peso", peso);
-console.log("Tipo", tipo_alimento);
+// console.log("Nombre", nombre);
+// console.log("Precio", precio);
+// console.log("Peso", peso);
+// console.log("Tipo", tipo_alimento);
+
+
+
+
+
+// Destructuring de Arreglos ********************************************/
+const nombres = ["José","María","Jesús","Juan"]
+
+// Opción 1 para obtener valores de un arreglo
+// let primero = nombres[0]
+// let segundo = nombres[1]
+// let tercero = nombres[2]
+// let cuarto = nombres[3]
+
+// Opción 2 para obtener valores de un arreglo
+let [primero, segundo, tercero, cuarto] = nombres
+
+console.log(primero);
+console.log(segundo);
+console.log(tercero);
+console.log(cuarto);
 
